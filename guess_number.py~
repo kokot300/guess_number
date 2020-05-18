@@ -12,10 +12,6 @@ def random_number():
 
 
 def game():
-    """
-    main game function. infinite loop that asks user to guess int number chosen randomly by python
-    :return: None
-    """
     secret_number = random_number()
     print('Hi, I am a python program. I have thought a number from 1 to 100. \n Type q to quit')
     # game main loop
